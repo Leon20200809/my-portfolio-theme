@@ -1,0 +1,16 @@
+/my-portfolio-theme/
+├── style.css              ← テーマ情報記載（必須）
+├── index.php              ← メインテンプレート
+├── front-page.php         ← トップページ専用テンプレート
+├── header.php             ← ヘッダー
+├── footer.php             ← フッター
+├── functions.php          ← 各種設定やカスタム投稿など
+├── page-about.php         ← 自己紹介ページ
+├── archive-project.php    ← 制作実績一覧（CPT用）
+├── single-project.php     ← 制作実績詳細（CPT用）
+├── template-parts/
+│   ├── section-hero.php       ← メインビジュアル
+│   ├── section-about.php      ← 自己紹介
+│   ├── section-works.php      ← 制作実績
+│   ├── section-contact.php    ← お問い合わせ
+└── screenshot.png
